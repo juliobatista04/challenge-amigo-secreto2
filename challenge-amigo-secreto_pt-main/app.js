@@ -4,7 +4,7 @@ let numeroDePessoas = 0;
 function adicionarAmigo() {
     let adicionando = document.querySelector("#amigo").value; 
     if (adicionando == "") {
-        alert("Por favor, insira um valor válido.");
+        alert("Por favor, insira um valor válido");
     } else {
         nomes.push(adicionando);
         numeroDePessoas++;
